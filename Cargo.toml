@@ -1,6 +1,6 @@
 [package]
 name = "macyeet"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "Drag and drop files into any macOS application from the command line"
 license = "MIT"
@@ -8,6 +8,7 @@ repository = "https://github.com/milgrim/macyeet"
 keywords = ["drag-and-drop", "macos", "cli", "files"]
 categories = ["command-line-utilities", "os::macos-apis"]
 readme = "README.md"
+exclude = ["justfile"]
 
 [[bin]]
 name = "yeet"
